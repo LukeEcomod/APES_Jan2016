@@ -3,6 +3,7 @@ APES_Jan2016
 # APES (Atmosphere-Plant Exchange Simulator)
 
 Samuli Launiainen. Metla/Luke 2011-2015.
+
 To GitHub 29.12.2017
 
 ************************************************************************************************************************************
@@ -57,7 +58,7 @@ To test the model:
 * change line 9 to match the APES root folder: 
 
 folder = 'D:\APES_Jan2016\'; % define folder where APES is
-
+* add with sub-folders to Matlab path
 * run Initialize_APES.m, it calls main program which saves results into a mat-file.
 * run script PlotSomeResult.m to see some example output from the model. Also here, change the folder as above.
 * see @APES_IO_readme for output variables and format
